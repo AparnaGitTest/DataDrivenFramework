@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="extentlisteners.ExtentListeners" />
+	</listeners>
+
+	<test name="AddToCart">
+		<classes>
+			<class name="TestCases.addToCart" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="lowToHigh">
+		<classes>
+			<class name="TestCases.lowToHigh" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="slider">
+		<classes>
+			<class name="TestCases.slider" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="increaseCart">
+		<classes>
+			<class name="TestCases.increaseCart" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+</suite> <!-- Suite -->
